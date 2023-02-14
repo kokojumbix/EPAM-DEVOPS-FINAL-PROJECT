@@ -1,4 +1,4 @@
-## Localhorse web site. Picture storage from browser. - Final Project EPAM DevOps.
+## Localhorse web site. Picture storage in browser. - Final Project EPAM DevOps.
 
 <h1> Description of project: </h1>
 
