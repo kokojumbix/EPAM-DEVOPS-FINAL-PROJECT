@@ -7,13 +7,14 @@
 For a long time i have the idea of creating my own site for storing images.
 And this is a really interesting task, especially in using microservices architecture
 
-
-<h2> 2. Actuality.
+<br>
+<h2> 2. Actuality. </h2>
 
 Yes, services like this is not something new. Main reason why i chosen this one,
 is that it will be nice basement to create some social networks, forum.
 
-<h2> 3. Goal.
+<br>
+<h2> 3. Goal. </h2>
 
 
 
