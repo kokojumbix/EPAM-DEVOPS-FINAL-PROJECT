@@ -1,4 +1,4 @@
-## Localhorse web site - Final Project EPAM DevOps.
+## Localhorse web site. Picture storage from browser. - Final Project EPAM DevOps.
 
 <h1> Description of project: </h1>
 
@@ -10,12 +10,25 @@ And this is a really interesting task, especially in using microservices archite
 <br>
 <h2> 2. Actuality. </h2>
 
-Yes, services like this is not something new. Main reason why i chosen this one,
+Yes, services like this is not something new, examples: imgur, google drive, dropbox. Main reason why i chosen this one,
 is that it will be nice basement to create some social networks, forum.
 
 <br>
 <h2> 3. Goal. </h2>
 
+Provide storage of photos, with storage beyond the capacity of local devices. 
+If to say more specifically, from business side, it is to create structure, that will be easy to scale, modify.
 
+<br>
+<h3> 4. Tasks.
+  
+At first sight it easy. Tasks that need to be solved:
+  
+1) Web Application. (Developer side)
+  
+2) Deploy application to cloud infrastructure. (DevOps side)
+  
+2.1) Creating RDB instance (Service of cloud or manual setting on the machine).
 
+2.2) Creating 
 
