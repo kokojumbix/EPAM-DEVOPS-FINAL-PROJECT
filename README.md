@@ -34,7 +34,7 @@ At first sight it easy. Tasks that need to be solved:
   
   2.1) Creating RDB instance (Service of cloud or manual setting on the machine).
 
-  2.2) Creating Web-Service instance:
+  2.2) Creating Web-Service instances:
 
       2.2.1) Creating auto-scaling structure for Production and for Test.
 
@@ -90,6 +90,16 @@ Framework was used because "developer" has the greatest experience in it for dev
 ```
 
 <h2> 6. Realization. </h2>
+
+1) Creating RDS and connecting it to local web application.
+
+![image](https://user-images.githubusercontent.com/113692759/218836217-d08d8e61-47f2-4ee7-bbd7-e8fc2a2e72e9.png)
+
+2) Creating EC2 instance for Jenkins Master.
+
+3) Creating Terraform script to build infrastructure:
+
+
 
 
 
