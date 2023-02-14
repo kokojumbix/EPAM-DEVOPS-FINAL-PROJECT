@@ -45,11 +45,13 @@ Technologies what will be used:
 ```
 1) DBMS - mysql <s>mssql</s>.
 
-For saving account information and image access-url is needed relational database. From all DBMS most simple is mysql, also it has free tier type.
+For saving account information and image access-url is needed relational database. 
+From all DBMS most simple is mysql, also it has free tier type.
 
 1.1) AWS RDS.
 
-AWS RDS is most optimal choise for growing projects. As it is PaaS, another specialists are not needed to manage hardware, and scaling will be much easier.
+AWS RDS is most optimal choise for growing projects. 
+As it is PaaS, another specialists are not needed to manage hardware, and scaling will be much easier.
 ```
 
 ```
