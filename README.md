@@ -89,6 +89,23 @@ Used instead of AWS CodeDeploy in forward thinking, if in project will be used s
 Framework was used because "developer" has the greatest experience in it for developing web applications.
 ```
 
+<h2> 6. Realization. </h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
