@@ -32,7 +32,7 @@ At first sight it easy. Tasks that need to be solved:
 
 2.2) Creating Web-Service instance:
 
-2.2.1) Creating auto-scaling structure for Production and for Test.
+        2.2.1) Creating auto-scaling structure for Production and for Test.
 
 2.3) Creating instance, from which all will be controlled. (Jenkins Master, Terraform)
 
