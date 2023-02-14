@@ -106,18 +106,32 @@ Suggested structure:
 
 3) Creating Terraform file to build infrastructure:
 
-For better security was created shell script that declares AWS Credentials.
+3.1 Apply
 
 ![image](https://user-images.githubusercontent.com/113692759/218838228-eb7b5249-8919-442f-b014-07931cd1bde5.png)
 
+For better security was created shell script that declares AWS Credentials.
+
+3.2
+
+In this stage was created script to create vpc, subnets, autoscaling groups (1 EC2 instance per group).
+
+![image](https://user-images.githubusercontent.com/113692759/218847117-ed76f121-8fc3-4b9e-8931-840bcdae764e.png)
+
+3.3
+
+Added to script creating of Load Balancer.
+
+![image](https://user-images.githubusercontent.com/113692759/218858889-9ea5afeb-15c3-446b-98d9-ce6f3d6dfdeb.png)
+
+3.4 
 
 
+4) (Temp) Created manualy global accelerator
 
+5) Installed AWS EC2 Fleet. Connected Autoscaling group.
 
-
-
-
-
+![image](https://user-images.githubusercontent.com/113692759/218861373-014a7d0f-4b42-4bd9-bdbc-5ff005f14f30.png)
 
 
 
