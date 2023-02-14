@@ -91,13 +91,25 @@ Framework was used because "developer" has the greatest experience in it for dev
 
 <h2> 6. Realization. </h2>
 
+Suggested structure:
+
+![Project-Structure](https://user-images.githubusercontent.com/113692759/218842459-7035f90e-65b0-458c-9b47-d92fd7c662c0.png)
+
+
+
+
 1) Creating RDS and connecting it to local web application.
 
 ![image](https://user-images.githubusercontent.com/113692759/218836217-d08d8e61-47f2-4ee7-bbd7-e8fc2a2e72e9.png)
 
 2) Creating EC2 instance for Jenkins Master.
 
-3) Creating Terraform script to build infrastructure:
+3) Creating Terraform file to build infrastructure:
+
+For better security was created shell script that declares AWS Credentials.
+
+![image](https://user-images.githubusercontent.com/113692759/218838228-eb7b5249-8919-442f-b014-07931cd1bde5.png)
+
 
 
 
