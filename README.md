@@ -20,7 +20,7 @@ Provide storage of photos, with storage beyond the capacity of local devices.
 If to say more specifically, from business side, it is to create structure, that will be easy to scale, modify.
 
 <br>
-<h3> 4. Tasks.
+<h2> 4. Tasks. </h2>
   
 At first sight it easy. Tasks that need to be solved:
   
