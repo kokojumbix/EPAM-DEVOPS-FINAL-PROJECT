@@ -1,4 +1,4 @@
-## Localhorse -Final Project EPAM DevOps.
+## Localhorse web site - Final Project EPAM DevOps.
 
 <h1> Description of project: </h1>
 
