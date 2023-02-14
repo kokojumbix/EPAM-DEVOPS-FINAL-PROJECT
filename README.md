@@ -137,7 +137,7 @@ Added to script creating of Load Balancer.
 ![image](https://user-images.githubusercontent.com/113692759/218863596-cafa1ac9-5e57-4495-a57e-a5d9b72a97ee.png)
 
 
-Last) For now have
+
 
 
 
