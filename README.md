@@ -46,7 +46,7 @@ At first sight it easy. Tasks that need to be solved:
 
 Technologies what will be used:
 ```
-1) DBMS - mysql <s>mssql</s>.
+1) DBMS - mysql.
 
 For saving account information and image access-url is needed relational database. 
 From all DBMS most simple is mysql, also it has free tier type.
@@ -82,6 +82,12 @@ will use some services from another cloud providers, it can be easy adapted to n
 Used instead of AWS CodeDeploy in forward thinking, if in project will be used something not from AWS.
 ```
 
+```
+5) ASP .Net
+
+
+Framework was used because "developer" has the greatest experience in it for developing web applications.
+``
 
 
 
