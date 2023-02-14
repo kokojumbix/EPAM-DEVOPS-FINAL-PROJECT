@@ -129,7 +129,7 @@ Added to script creating of Load Balancer.
 
 4) (Temp) Created manualy global accelerator
 
-5) Installed AWS EC2 Fleet. Connected Autoscaling group.
+5) Installed AWS EC2 Fleet. Connected Autoscaling groups.
 
 ![image](https://user-images.githubusercontent.com/113692759/218861373-014a7d0f-4b42-4bd9-bdbc-5ff005f14f30.png)
 
@@ -137,7 +137,7 @@ Added to script creating of Load Balancer.
 ![image](https://user-images.githubusercontent.com/113692759/218863596-cafa1ac9-5e57-4495-a57e-a5d9b72a97ee.png)
 
 
-
+Last) For now have
 
 
 
