@@ -35,7 +35,7 @@ At first sight it easy. Tasks that need to be solved:
 
       2.2.1) Creating auto-scaling structure for Production and for Test.
 
-  2.3) Creating instance, from which all will be controlled. (Jenkins Master, Terraform)
+  2.3) Creating instance, from which all will be controlled, deployed program. (Jenkins Master, Terraform)
 ```
 
 <br>
@@ -66,8 +66,19 @@ Main reason is in the prevelance, so most of new DevOps engineers will be able t
 
 ```
 
+```
+3) Terraform.
 
-2) 
+Nice IaaC opensource tool, that can be used in the majority of Cloud Providers. So if this project
+will use some services from another cloud providers, it can be easy adapted to new cloud.
+```
+
+```
+4) Jenkins.
+
+Used instead of AWS CodeDeploy in forward thinking, if in project will be used something not from AWS.
+```
+
 
 
 
