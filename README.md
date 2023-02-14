@@ -1,6 +1,7 @@
+```
 ## Localhorse web site. Picture storage in browser. - Final Project EPAM DevOps.
 <h4>Created by Markiian Chorniy</h4>
-
+```
 
 <h1> Description of project: </h1>
 
