@@ -136,12 +136,27 @@ Added to script creating of Load Balancer.
 
 ![image](https://user-images.githubusercontent.com/113692759/218863596-cafa1ac9-5e57-4495-a57e-a5d9b72a97ee.png)
 
+----------
+Will be replaced
+ |
+\ /
+
+![image](https://user-images.githubusercontent.com/113692759/218879615-807ec7bf-6ca8-4825-8c0f-57d7f1bfa3d1.png)
+
+6) Jenkins job to deploy project in docker container
+
+![image](https://user-images.githubusercontent.com/113692759/218879753-d20faf5f-9f78-4aef-987a-44b4677648a9.png)
+
+![image](https://user-images.githubusercontent.com/113692759/218879829-2fec1556-12a8-4d83-8817-bdd317138d9b.png)
+
+7) Attached Domain Name to public ip:
+
+localhorse.space
 
 
+<h2> 7. Demonstration </h2>
 
-
-
-
+<h2> 8.  </h2>
 
 
 
