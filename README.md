@@ -2,7 +2,6 @@
 ## Localhorse web site. Picture storage in browser. - Final Project EPAM DevOps.
 <h5>Created by Markiian Chorniy</h5>
 
-
 <h1> Description of project: </h1>
 
 <h2> 1. Motivation.</h2>
@@ -155,6 +154,10 @@ localhorse.space
 
 
 <h2> 7. Demonstration </h2>
+
+![image](https://user-images.githubusercontent.com/113692759/218972959-524be09d-aa6a-45e5-b06d-b14b80d78ac5.png)
+
+
 
 <h2> 8.  </h2>
 
