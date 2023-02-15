@@ -141,13 +141,9 @@ Added to script creating of Load Balancer.
 
 6) Jenkins job to deploy project in docker container
 
-6.1) Testing deploy to Web-Prod server:
+6.1) Testing deploy to Web-Test autoscaling group:
 
-![image](https://user-images.githubusercontent.com/113692759/219011602-e446ab63-3ce4-465b-8bb4-43cfe4844ede.png)
-
-![image](https://user-images.githubusercontent.com/113692759/219011713-59d9a85f-f958-487c-8304-e0a42cdda919.png)
-
-![image](https://user-images.githubusercontent.com/113692759/219011988-6f3d1540-8f25-41d5-93a6-bee7715db278.png)
+![image](https://user-images.githubusercontent.com/113692759/219024203-af5f3bd7-eb8f-4e9d-9af0-8e8298f97d97.png)
 
 
 
