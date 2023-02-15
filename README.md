@@ -135,18 +135,22 @@ Added to script creating of Load Balancer.
 
 ![image](https://user-images.githubusercontent.com/113692759/218863596-cafa1ac9-5e57-4495-a57e-a5d9b72a97ee.png)
 
-----------
-Will be replaced
- |
-\ /
 
-![image](https://user-images.githubusercontent.com/113692759/218879615-807ec7bf-6ca8-4825-8c0f-57d7f1bfa3d1.png)
+![image](https://user-images.githubusercontent.com/113692759/218980265-cf331aa5-0daf-4f62-80de-6a55c66e8d61.png)
+
 
 6) Jenkins job to deploy project in docker container
 
-![image](https://user-images.githubusercontent.com/113692759/218879753-d20faf5f-9f78-4aef-987a-44b4677648a9.png)
+6.1) Testing deploy to Web-Prod server:
 
-![image](https://user-images.githubusercontent.com/113692759/218879829-2fec1556-12a8-4d83-8817-bdd317138d9b.png)
+![image](https://user-images.githubusercontent.com/113692759/219011602-e446ab63-3ce4-465b-8bb4-43cfe4844ede.png)
+
+![image](https://user-images.githubusercontent.com/113692759/219011713-59d9a85f-f958-487c-8304-e0a42cdda919.png)
+
+![image](https://user-images.githubusercontent.com/113692759/219011988-6f3d1540-8f25-41d5-93a6-bee7715db278.png)
+
+
+
 
 7) Attached Domain Name to public ip:
 
