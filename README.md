@@ -126,9 +126,7 @@ Added to script creating of Load Balancer.
 3.4 
 
 
-4) (Temp) Created manualy global accelerator
-
-5) Installed AWS EC2 Fleet. Connected Autoscaling groups.
+4) Installed AWS EC2 Fleet. Connected Autoscaling groups.
 
 ![image](https://user-images.githubusercontent.com/113692759/218861373-014a7d0f-4b42-4bd9-bdbc-5ff005f14f30.png)
 
@@ -139,9 +137,9 @@ Added to script creating of Load Balancer.
 ![image](https://user-images.githubusercontent.com/113692759/218980265-cf331aa5-0daf-4f62-80de-6a55c66e8d61.png)
 
 
-6) Jenkins job to deploy project in docker container
+5) Jenkins job to deploy project in docker container
 
-6.1) Testing deploy to Web-Test autoscaling group:
+5.1) Testing deploy to Web-Test autoscaling group:
 
 ![image](https://user-images.githubusercontent.com/113692759/219024203-af5f3bd7-eb8f-4e9d-9af0-8e8298f97d97.png)
 
