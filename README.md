@@ -143,6 +143,21 @@ Added to script creating of Load Balancer.
 
 ![image](https://user-images.githubusercontent.com/113692759/219024203-af5f3bd7-eb8f-4e9d-9af0-8e8298f97d97.png)
 
+5.2) Created stage for deploy and simple-test for Web-Test servers:
+
+Stage invokes job:
+
+Deploy
+
+![image](https://user-images.githubusercontent.com/113692759/220154017-01c44050-484a-4749-ba41-3b93431740a7.png)
+
+Test
+
+![image](https://user-images.githubusercontent.com/113692759/220154286-40965819-a2c7-4032-a052-5bce176e2150.png)
+
+Executer
+
+![image](https://user-images.githubusercontent.com/113692759/220154497-13981914-fefc-4386-b1a1-0cd93c798088.png)
 
 
 
