@@ -1,6 +1,8 @@
 provider "aws" {
 }
 
+
+// Creating SG to connect via SSH from Jenkins master and give access from internet
 resource "aws_security_group" "Web" {
         name    = "Final Project EPAM"
         vpc_id = aws_vpc.main.id
@@ -10,7 +12,7 @@ resource "aws_security_group" "Web" {
                 protocol        = "tcp"
                 from_port       = 22
                 to_port         = 22
-                cidr_blocks     = ["54.162.51.202/32"]
+                cidr_blocks     = ["10.0.255.0/24"]
         }
 
 
@@ -26,6 +28,22 @@ resource "aws_security_group" "Web" {
 
                 from_port       = 443
                 to_port         = 443
+                protocol        = "tcp"
+                cidr_blocks     = ["0.0.0.0/0"]
+        }
+
+        ingress {
+
+                from_port       = 3306
+                to_port         = 3306
+                protocol        = "tcp"
+                cidr_blocks     = ["172.31.0.0/16"]
+        }
+
+        egress {
+
+                from_port       = 3306
+                to_port         = 3306
                 protocol        = "tcp"
                 cidr_blocks     = ["0.0.0.0/0"]
         }
@@ -92,9 +110,9 @@ resource "aws_lb" "WebLB" {
 resource "aws_autoscaling_group" "Web-Test" {
   name                 = "ASG-Test"
   launch_configuration = aws_launch_configuration.Web.name
-  min_size             = 2
-  max_size             = 2
-  min_elb_capacity     = 2
+  min_size             = 1
+  max_size             = 1
+  min_elb_capacity     = 1
   health_check_type    = "ELB"
   vpc_zone_identifier  = [aws_subnet.Web-Test.id]
 
@@ -137,12 +155,19 @@ resource "aws_autoscaling_attachment" "WebProdAttach" {
 
 resource "aws_autoscaling_attachment" "WebTestAttach" {
   autoscaling_group_name = aws_autoscaling_group.Web-Test.id
-  lb_target_group_arn    = aws_lb_target_group.WebProject.arn
+  lb_target_group_arn    = aws_lb_target_group.WebProjectTest.arn
 }
 
 
 resource "aws_lb_target_group" "WebProject" {
   name     = "lbtargetweb"
+  port     = 80
+  protocol = "HTTP"
+  vpc_id   = aws_vpc.main.id
+}
+
+resource "aws_lb_target_group" "WebProjectTest" {
+  name     = "lbtargetwebtest"
   port     = 80
   protocol = "HTTP"
   vpc_id   = aws_vpc.main.id
@@ -214,8 +239,6 @@ resource "aws_route_table" "WebRoute" {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.gw.id
   }
-
-
 
 }
 
